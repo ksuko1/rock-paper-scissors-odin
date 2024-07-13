@@ -1,4 +1,4 @@
-// Create a new function named getComputerChoice.
+// returns rock paper or scissors depending on Math.random
 function getComputerChoice() {
     let randomNumber = Math.random()
         if (randomNumber <= 0.33){
@@ -9,7 +9,6 @@ function getComputerChoice() {
         return "scissors";
         }
 }
-console.log(getComputerChoice())
-// // Test that your function returns what you expect using 
-// console.log or the browser developer tools before advancing 
-// to the next step.
+function getHumanChoice(){
+    let choice = prompt("Please enter Rock, Paper or Scissors","ROCK")
+}
